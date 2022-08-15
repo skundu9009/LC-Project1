@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body .container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+
+}
+
+.navbar-container {
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container img {
+    width: 11.2rem;
+}
+
+.navbar-container .list {
+    width: 40rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container .list li.active{
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.navbar-container .list li.active::before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 2rem;
+    left: 0;
+    width: 4.2rem;
+    height: 0.2rem;
+}
+
+.navbar-container .button-group {
+    display: flex;
+}
+
+.navbar-container .button-group .search-icon {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.navbar-container .button-group .nav-button {
+    width: 11.2rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .hero-container {
+    display: flex;
+    position: relative;
+}
+
+.container .hero-container .square img {
+    width: 30rem;
+    position: absolute;
+    top: 21rem;
+    left: 13.6rem;
+    z-index: -1;
+}
+
+.container .hero-container .star1 img{
+    position: absolute;
+    width: 4rem;
+    top: 4rem;
+    right: 1rem;
+}
+.container .hero-container .star2 img{
+    position: absolute;
+    width: 3rem;
+    top: 40rem;
+    left: 50rem;
+}
+
+.container .hero-container .globe img {
+    width: 4rem;
+    position: absolute;
+    right: 46rem;
+    top: 1rem;
+}
+
+.container .hero-container .person img {
+    width: 37.5rem;
+    height: 42rem;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 4rem;
+}
+
+.container .hero-container .hero-container-right {
+    width: 65rem;
+    text-align: center;
+    position: absolute;
+    left: 45rem;
+    top: 7.5rem;
+
+}
+
+.hero-heading {
+    margin: 1.2rem 0;
+    padding: 3rem 0;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4.2rem;
+    font-weight: 800;
+}
+
+.container .hero-container .hero-container-right .hero-description {
+    width: 45rem;
+    margin: 1rem 0 2rem 7.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container .hero-container .hero-container-right button {
+    margin: 5rem 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container .hero-container .hero-container-right .button-email {
+    padding: 0.2rem 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+.container .hero-container .hero-container-right .button-join {
+    background-color: black;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.container .hero-container .hero-container-right .contact-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.container .hero-container .hero-container-right .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .hero-container .hero-container-right .icons img {
+    width: 2.5rem;
+    margin-left: 1rem;
+
+}
